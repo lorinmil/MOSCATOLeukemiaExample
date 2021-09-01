@@ -26,11 +26,11 @@ The code in the remaining sections executes MOSCATO on each cell cluster separat
 
 ### Estimate the similarity tensors for each subject
 
-ENTERFILEHERE provides the R code to estimate the similarity matrix for each cell type within each subject to be used as the predictor tensor for the tensor regression.
+setUpSimilarityMatricesforLeuk.R provides the R code to estimate the similarity matrix for each cell type within each subject to be used as the predictor tensor for the tensor regression. This function requires the sourcing of the function_seuratToMatrix.R file.
 
 ### Perform MOSCATO
 
-ENTERFILEHERE provides the R code to tune the parameters as well as execute the final selections for MOSCATO for each of the cell types.
+PerformMOSCATOLeuk.R provides the R code to tune the parameters as well as execute the final selections for MOSCATO for each of the cell types. Note that this file sources the supportingMOSCATOFunctions.R and tuneMOSCATO.R from https://github.com/lorinmil/MOSCATO.
 
 ### Analyzing MOSCATO results
 
