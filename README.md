@@ -19,3 +19,19 @@ The last study used was GSE139369, and the data was downloaded at https://www.nc
 ## Integrate the data across subjects
 
 Seurat_Combine_All.R provides the R code to integrate and cluster the cells across the subjects.
+
+## Implement MOSCATO
+
+The code in the remaining sections executes MOSCATO on each cell cluster separately that match across all 21 subjects using features that also merged across all subjects.
+
+### Estimate the similarity tensors for each subject
+
+ENTERFILEHERE provides the R code to estimate the similarity matrix for each cell type within each subject to be used as the predictor tensor for the tensor regression.
+
+### Perform MOSCATO
+
+ENTERFILEHERE provides the R code to tune the parameters as well as execute the final selections for MOSCATO for each of the cell types.
+
+### Analyzing MOSCATO results
+
+ENTERFILEHERE provides the list of gene names from the MOSCATO results.
