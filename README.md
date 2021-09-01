@@ -34,4 +34,4 @@ PerformMOSCATOLeuk.R provides the R code to tune the parameters as well as execu
 
 ### Analyzing MOSCATO results
 
-ENTERFILEHERE provides the list of gene names from the MOSCATO results.
+AnalyzeMOSCATOResultsLeuk.R provides the list of gene names from the MOSCATO results by the different clusters.
